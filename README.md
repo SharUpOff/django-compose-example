@@ -65,15 +65,21 @@ get_random_secret_key()
 ```bash
 docker compose run example poetry add psycopg2-binary~=2.9
 ```
+### Add django-starcross-gallery
+```bash
+docker compose run example poetry add django-starcross-gallery~=1.1
+```
 
 ## Used services
 - https://www.toptal.com/developers/gitignore/api/django
+- https://djangopackages.org/grids/g/gallery/
 
 ## Used projects
 - https://github.com/python-poetry/poetry
 - https://github.com/django/django
 - https://github.com/joke2k/django-environ
 - https://github.com/psycopg/psycopg2
+- https://github.com/Starcross/django-starcross-gallery
 
 ## Used docs
 - https://python-poetry.org/docs/configuration/#virtualenvscreate
