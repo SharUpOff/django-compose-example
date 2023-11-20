@@ -82,6 +82,10 @@ docker compose run example poetry add django-redis~=5.4
 ```bash
 docker compose run example poetry add celery~=5.3
 ```
+### Add flower
+```bash
+docker compose run example poetry add flower~=2.0
+```
 
 ## Used services
 - https://www.toptal.com/developers/gitignore/api/django
@@ -95,6 +99,7 @@ docker compose run example poetry add celery~=5.3
 - https://github.com/Starcross/django-starcross-gallery
 - https://github.com/jazzband/django-redis
 - https://github.com/celery/celery
+- https://github.com/adap/flower
 
 ## Used docs
 - https://python-poetry.org/docs/configuration/#virtualenvscreate
