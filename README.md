@@ -35,6 +35,7 @@ docker compose up
 - http://localhost:8000/admin/
 - http://localhost:8000/gallery/
 - http://localhost:5555/
+- http://localhost:8081/
 
 ## From scratch
 ### Init poetry
@@ -101,6 +102,7 @@ docker compose run example poetry add flower~=2.0
 - https://github.com/jazzband/django-redis
 - https://github.com/celery/celery
 - https://github.com/adap/flower
+- https://github.com/joeferner/redis-commander
 
 ## Used docs
 - https://python-poetry.org/docs/configuration/#virtualenvscreate
