@@ -30,6 +30,10 @@ docker compose run example poetry add django~=4.2
 ```bash
 docker compose run example poetry run django-admin startproject example .
 ```
+### Add django-environ
+```bash
+docker compose run example poetry add django-environ~=0.11.2
+```
 
 ## Used services
 - https://www.toptal.com/developers/gitignore/api/django
@@ -37,6 +41,7 @@ docker compose run example poetry run django-admin startproject example .
 ## Used projects
 - https://github.com/python-poetry/poetry
 - https://github.com/django/django
+- https://github.com/joke2k/django-environ
 
 ## Used docs
 - https://python-poetry.org/docs/configuration/#virtualenvscreate
