@@ -1,6 +1,6 @@
 services:
   example:
-    env_file: .env
+    env_file: &env_file .env
     image: python:3.12-slim-bookworm
     working_dir: /opt/project
     volumes:
@@ -8,8 +8,16 @@ services:
       - usr_local_bin:/usr/local/bin
       - poetry_cache:/root/.cache/pypoetry
       - ./src:/opt/project
+    depends_on:
+      - postgres
+  postgres:
+    env_file: *env_file
+    image: postgres:alpine
+    volumes:
+      - pg_data:/var/lib/postgresql/data
 
 volumes:
   site_packages:
   usr_local_bin:
   poetry_cache:
+  pg_data:
