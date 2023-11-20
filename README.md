@@ -22,6 +22,13 @@ docker compose run example poetry run python manage.py migrate
 ```bash
 docker compose run example poetry run python manage.py createsuperuser --noinput
 ```
+### Run django
+```bash
+docker compose up
+```
+
+## Resources
+- http://localhost:8000/admin/
 
 ## From scratch
 ### Init poetry
