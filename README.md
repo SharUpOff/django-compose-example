@@ -36,6 +36,7 @@ docker compose up
 - http://localhost:8000/gallery/
 - http://localhost:5555/
 - http://localhost:8081/
+- http://localhost:5050/
 
 ## From scratch
 ### Init poetry
@@ -113,3 +114,4 @@ docker compose run example poetry add flower~=2.0
 - https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html
 - https://django-imagekit.readthedocs.io/en/latest/caching.html#deferring-image-generation
 - https://flower.readthedocs.io/en/latest/install.html#usage
+- https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html#environment-variables

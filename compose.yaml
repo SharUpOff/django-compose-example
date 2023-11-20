@@ -58,6 +58,17 @@ services:
     image: postgres:alpine
     volumes:
       - pg_data:/var/lib/postgresql/data
+  pgadmin:
+    env_file: *env_file
+    image: dpage/pgadmin4
+    configs:
+      - pgadmin_servers.json
+    secrets:
+      - pgadmin_passfile
+    ports:
+      - 5050:5050
+    depends_on:
+      - postgres
   redis:
     image: redis:alpine
   redis-commander:
@@ -76,3 +87,11 @@ volumes:
   poetry_cache:
   pg_data:
   media:
+
+configs:
+  pgadmin_servers.json:
+    file: ./pgadmin/servers.json
+
+secrets:
+  pgadmin_passfile:
+    file: ./pgadmin/passfile
