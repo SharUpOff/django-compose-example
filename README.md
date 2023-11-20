@@ -74,6 +74,10 @@ docker compose run example poetry add psycopg2-binary~=2.9
 ```bash
 docker compose run example poetry add django-starcross-gallery~=1.1
 ```
+### Add django-redis
+```bash
+docker compose run example poetry add django-redis~=5.4
+```
 
 ## Used services
 - https://www.toptal.com/developers/gitignore/api/django
@@ -85,6 +89,7 @@ docker compose run example poetry add django-starcross-gallery~=1.1
 - https://github.com/joke2k/django-environ
 - https://github.com/psycopg/psycopg2
 - https://github.com/Starcross/django-starcross-gallery
+- https://github.com/jazzband/django-redis
 
 ## Used docs
 - https://python-poetry.org/docs/configuration/#virtualenvscreate
