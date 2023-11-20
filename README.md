@@ -103,3 +103,4 @@ docker compose run example poetry add celery~=5.3
 - https://django-environ.readthedocs.io/en/latest/quickstart.html
 - https://docs.djangoproject.com/en/4.2/howto/static-files/#serving-files-uploaded-by-a-user-during-development
 - https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html
+- https://django-imagekit.readthedocs.io/en/latest/caching.html#deferring-image-generation
