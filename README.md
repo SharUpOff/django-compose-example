@@ -116,3 +116,4 @@ docker compose run example poetry add flower~=2.0
 - https://django-imagekit.readthedocs.io/en/latest/caching.html#deferring-image-generation
 - https://flower.readthedocs.io/en/latest/install.html#usage
 - https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html#environment-variables
+- https://www.postgresql.org/docs/current/libpq-pgpass.html
