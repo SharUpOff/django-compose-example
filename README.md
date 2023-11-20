@@ -10,6 +10,14 @@ during development.
 ```bash
 docker compose run example pip install poetry
 ```
+### Install dependencies
+```bash
+docker compose run example poetry install
+```
+### Migrate
+```bash
+docker compose run example poetry run python manage.py migrate
+```
 
 ## From scratch
 ### Init poetry
