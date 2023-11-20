@@ -17,6 +17,7 @@ services:
       - usr_local_bin:/usr/local/bin
       - poetry_cache:/root/.cache/pypoetry
       - ./src:/opt/project
+      - media:/opt/project/media
     depends_on:
       - postgres
   postgres:
@@ -30,3 +31,4 @@ volumes:
   usr_local_bin:
   poetry_cache:
   pg_data:
+  media:

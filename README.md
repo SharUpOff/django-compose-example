@@ -14,6 +14,10 @@ docker compose run example pip install poetry
 ```bash
 docker compose run example poetry install
 ```
+### Make migrations (gallery)
+```bash
+docker compose run example poetry run python manage.py makemigrations gallery
+```
 ### Migrate
 ```bash
 docker compose run example poetry run python manage.py migrate
@@ -29,6 +33,7 @@ docker compose up
 
 ## Resources
 - http://localhost:8000/admin/
+- http://localhost:8000/gallery/
 
 ## From scratch
 ### Init poetry
@@ -86,3 +91,4 @@ docker compose run example poetry add django-starcross-gallery~=1.1
 - https://python-poetry.org/docs/basic-usage/#initialising-a-pre-existing-project
 - https://docs.djangoproject.com/en/4.2/intro/tutorial01/#creating-a-project
 - https://django-environ.readthedocs.io/en/latest/quickstart.html
+- https://docs.djangoproject.com/en/4.2/howto/static-files/#serving-files-uploaded-by-a-user-during-development
