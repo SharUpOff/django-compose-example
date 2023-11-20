@@ -1,0 +1,11 @@
+services:
+  example:
+    env_file: .env
+    image: python:3.12-slim-bookworm
+    volumes:
+      - site_packages:/usr/local/lib/python3.12/site-packages
+      - usr_local_bin:/usr/local/bin
+
+volumes:
+  site_packages:
+  usr_local_bin:
