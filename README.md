@@ -42,6 +42,10 @@ docker compose run example poetry run python manage.py shell
 from django.core.management.utils import get_random_secret_key
 get_random_secret_key()
 ```
+### Add psycopg2
+```bash
+docker compose run example poetry add psycopg2-binary~=2.9
+```
 
 ## Used services
 - https://www.toptal.com/developers/gitignore/api/django
@@ -50,6 +54,7 @@ get_random_secret_key()
 - https://github.com/python-poetry/poetry
 - https://github.com/django/django
 - https://github.com/joke2k/django-environ
+- https://github.com/psycopg/psycopg2
 
 ## Used docs
 - https://python-poetry.org/docs/configuration/#virtualenvscreate
