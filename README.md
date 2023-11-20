@@ -104,6 +104,7 @@ docker compose run example poetry add flower~=2.0
 - https://github.com/celery/celery
 - https://github.com/adap/flower
 - https://github.com/joeferner/redis-commander
+- https://github.com/pgadmin-org/pgadmin4
 
 ## Used docs
 - https://python-poetry.org/docs/configuration/#virtualenvscreate
