@@ -18,6 +18,10 @@ docker compose run example poetry install
 ```bash
 docker compose run example poetry run python manage.py migrate
 ```
+### Create superuser
+```bash
+docker compose run example poetry run python manage.py createsuperuser --noinput
+```
 
 ## From scratch
 ### Init poetry
