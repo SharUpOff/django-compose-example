@@ -34,6 +34,7 @@ docker compose up
 ## Resources
 - http://localhost:8000/admin/
 - http://localhost:8000/gallery/
+- http://localhost:5555/
 
 ## From scratch
 ### Init poetry
@@ -109,3 +110,4 @@ docker compose run example poetry add flower~=2.0
 - https://docs.djangoproject.com/en/4.2/howto/static-files/#serving-files-uploaded-by-a-user-during-development
 - https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html
 - https://django-imagekit.readthedocs.io/en/latest/caching.html#deferring-image-generation
+- https://flower.readthedocs.io/en/latest/install.html#usage

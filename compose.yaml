@@ -36,6 +36,23 @@ services:
       - --loglevel=DEBUG
     volumes: *volumes
     depends_on: *depends_on
+  flower:
+    env_file: *env_file
+    image: *python_image
+    working_dir: *working_dir
+    command:
+      - poetry
+      - run
+      - celery
+      - --app=example
+      - flower
+      - --address 0.0.0.0
+      - --port=5555
+    ports:
+      - 5555:5555
+    volumes: *volumes
+    depends_on:
+      - redis
   postgres:
     env_file: *env_file
     image: postgres:alpine
