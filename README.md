@@ -22,12 +22,17 @@ docker compose run example poetry init \
   --license MIT \
   --python 3.12
 ```
+### Add django
+```bash
+docker compose run example poetry add django~=4.2
+```
 
 ## Used services
 - https://www.toptal.com/developers/gitignore/api/django
 
 ## Used projects
 - https://github.com/python-poetry/poetry
+- https://github.com/django/django
 
 ## Used docs
 - https://python-poetry.org/docs/configuration/#virtualenvscreate
