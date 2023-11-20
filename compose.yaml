@@ -20,11 +20,14 @@ services:
       - media:/opt/project/media
     depends_on:
       - postgres
+      - redis
   postgres:
     env_file: *env_file
     image: postgres:alpine
     volumes:
       - pg_data:/var/lib/postgresql/data
+  redis:
+    image: redis:alpine
 
 volumes:
   site_packages:
