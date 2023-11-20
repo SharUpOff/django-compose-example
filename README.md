@@ -34,6 +34,14 @@ docker compose run example poetry run django-admin startproject example .
 ```bash
 docker compose run example poetry add django-environ~=0.11.2
 ```
+### Generate secret key
+```bash
+docker compose run example poetry run python manage.py shell
+```
+```python
+from django.core.management.utils import get_random_secret_key
+get_random_secret_key()
+```
 
 ## Used services
 - https://www.toptal.com/developers/gitignore/api/django
@@ -47,3 +55,4 @@ docker compose run example poetry add django-environ~=0.11.2
 - https://python-poetry.org/docs/configuration/#virtualenvscreate
 - https://python-poetry.org/docs/basic-usage/#initialising-a-pre-existing-project
 - https://docs.djangoproject.com/en/4.2/intro/tutorial01/#creating-a-project
+- https://django-environ.readthedocs.io/en/latest/quickstart.html
