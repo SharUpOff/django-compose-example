@@ -32,11 +32,11 @@ docker compose up
 ```
 
 ## Resources
-- http://localhost:8000/admin/
-- http://localhost:8000/gallery/
-- http://localhost:5555/
-- http://localhost:8081/
-- http://localhost:5050/
+- Admin Panel: http://localhost:8000/admin/
+- Photo Gallery: http://localhost:8000/gallery/
+- Flower: http://localhost:5555/
+- Redis Commander: http://localhost:8081/
+- PgAdmin4: http://localhost:5050/
 
 ## From scratch
 ### Init poetry
