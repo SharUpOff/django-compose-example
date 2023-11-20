@@ -5,5 +5,17 @@ with
 [Compose](https://docs.docker.com/compose/)
 during development.
 
+## Quick start
+### Install poetry
+```bash
+docker compose run example pip install poetry
+```
+
 ## Used services
 - https://www.toptal.com/developers/gitignore/api/django
+
+## Used projects
+- https://github.com/python-poetry/poetry
+
+## Used docs
+- https://python-poetry.org/docs/configuration/#virtualenvscreate

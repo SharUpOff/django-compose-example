@@ -5,7 +5,9 @@ services:
     volumes:
       - site_packages:/usr/local/lib/python3.12/site-packages
       - usr_local_bin:/usr/local/bin
+      - poetry_cache:/root/.cache/pypoetry
 
 volumes:
   site_packages:
   usr_local_bin:
+  poetry_cache:
