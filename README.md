@@ -26,6 +26,10 @@ docker compose run example poetry init \
 ```bash
 docker compose run example poetry add django~=4.2
 ```
+### Init django
+```bash
+docker compose run example poetry run django-admin startproject example .
+```
 
 ## Used services
 - https://www.toptal.com/developers/gitignore/api/django
@@ -37,3 +41,4 @@ docker compose run example poetry add django~=4.2
 ## Used docs
 - https://python-poetry.org/docs/configuration/#virtualenvscreate
 - https://python-poetry.org/docs/basic-usage/#initialising-a-pre-existing-project
+- https://docs.djangoproject.com/en/4.2/intro/tutorial01/#creating-a-project
