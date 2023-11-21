@@ -45,7 +45,7 @@ docker compose run example poetry init \
   --no-interaction \
   --name example \
   --description 'This is a sample project demonstrating how to use Django with Compose during development' \
-  --author 'SharUpOff<sharupoff@efstudios.org>' \
+  --author 'SharUpOff <sharupoff@efstudios.org>' \
   --license MIT \
   --python 3.12
 ```
