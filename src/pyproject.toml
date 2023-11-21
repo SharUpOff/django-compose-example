@@ -2,9 +2,8 @@
 name = "example"
 version = "0.1.0"
 description = "This is a sample project demonstrating how to use Django with Compose during development"
-authors = ["SharUpOff<sharupoff@efstudios.org>"]
+authors = ["SharUpOff <sharupoff@efstudios.org>"]
 license = "MIT"
-readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "3.12"
