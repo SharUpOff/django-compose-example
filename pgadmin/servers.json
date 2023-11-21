@@ -8,7 +8,7 @@
             "Password": "example",
             "Host": "postgres",
             "SSLMode": "prefer",
-            "PassFile": "/var/run/secrets/pgadmin_passfile",
+            "PassFile": "/run/secrets/pgadmin_passfile",
             "MaintenanceDB": "postgres"
         }
     }
